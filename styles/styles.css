@@ -149,6 +149,9 @@
     border: 1px solid #DADADA;
     border-width: 50%;
 }
+.button-donate{
+    text-align: center;
+}
 .btn-donate{
     background-color: #FF5959;
     color: #FFFFFF;
