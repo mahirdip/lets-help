@@ -46,6 +46,11 @@
 
 /* secend part */
 
+.center{
+    text-align: center;
+
+}
+
 .sub-title-two {
     text-align: center;
     margin-top: 130px;
@@ -320,16 +325,6 @@ hr {
     margin-left: 500px;
 }
 
-.mahir {
-    text-align: center;
-}
-
-.image-1 {
-    width: 456px;
-    height: 477px;
-    padding-left: 100px;
-}
-
 .dip-2 {
     display: flex;
     margin-bottom: 185px;
@@ -338,7 +333,11 @@ hr {
     height: 352px;
     margin-left: 300px;
 }
-
+.image-1 {
+    width: 456px;
+    height: 477px;
+    padding-left: 100px;
+}
 .image-2 {
     width: 456px;
     height: 477px;
@@ -363,9 +362,10 @@ hr {
 .email{
     text-align: center;
     justify-content: center;
-    border: 100px solid #FFF4D6;
+    border: 50px solid #FFF4D6;
     margin-bottom: 1px;
     background-color: #FFF4D6;
+    box-sizing: content-box;
 }
 .btn-5{
     background-color: #FF5959;
@@ -381,6 +381,8 @@ hr {
 .footer{
     text-align: center;
     border: 50px solid black;
+    border-radius: 5px;
+    border-width: 50px;
     background-color: black;
     color: white;
 }
